@@ -5,7 +5,7 @@
 }
 
 .container {
-    max-width: auto;
+    max-width: 960px;
     width: 100%;
     margin: 0 auto;
 }
@@ -120,3 +120,23 @@ ul.menu li a:hover {
     background-color: aliceblue;
     cursor: grab;
  }
+
+@media only screen and (max-width:480px) {
+
+    header {
+        height: auto;
+    }
+    
+    .nav-grid {
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+
+    ul.menu {
+        grid-template-columns: 1fr;
+    }
+    ul.menu li {
+        height: 2rem;
+    }
+    
+}
