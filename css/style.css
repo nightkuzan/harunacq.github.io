@@ -28,11 +28,11 @@ header {
 }
 
 .logo h1 {
-    font-size: 28px;
+    font-size: 40px;
 }
 
 .logo span {
-    font-size: 12px;
+    font-size: 20px;
 }
 
 ul.menu {
@@ -120,23 +120,3 @@ ul.menu li a:hover {
     background-color: aliceblue;
     cursor: grab;
  }
-
-@media only screen and (max-width:480px) {
-
-    header {
-        height: auto;
-    }
-    
-    .nav-grid {
-        text-align: center;
-        grid-template-columns: 1fr;
-    }
-
-    ul.menu {
-        grid-template-columns: 1fr;
-    }
-    ul.menu li {
-        height: 2rem;
-    }
-    
-}
