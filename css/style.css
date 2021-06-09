@@ -99,6 +99,11 @@ ul.menu li a:hover {
     font-size: 20px;
     font-family: sans-serif;
     margin-top: 10px;
+    display: inline;
+}
+
+.content-services-item p {
+    display: inline;
 }
 
 .content-services-item h5 {
